@@ -1,20 +1,7 @@
 {
   "version": 2,
-  "name": "tiktoksavenow-api",
-  "builds": [
-    {
-      "src": "api/*.js",
-      "use": "@vercel/node"
-    }
-  ],
   "routes": [
-    {
-      "src": "/api/download",
-      "dest": "/api/download.js"
-    },
-    {
-      "src": "/api/feedback",
-      "dest": "/api/feedback.js"
-    }
+    { "src": "/api/download", "dest": "/api/download.js" },
+    { "src": "/api/feedback", "dest": "/api/feedback.js" }
   ]
 }
